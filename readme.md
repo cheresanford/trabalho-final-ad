@@ -51,7 +51,7 @@ Foram simuladas três situações distintas em relação aos tempos de serviço:
 
 - Foram gerados um total de 250.000 jobs, dos quais os primeiros 10.000 foram descartados (warm-up) para garantir que o sistema atingisse uma condição mais próxima do regime estacionário.
 - Decidimos aumentar de 20.000 pra o valor acima pois notamos que as execuções estavam com uma oscilação bem grande, então fizemos isso para atenuar.
-- Após o período de aquecimento, as métricas (tempo médio no sistema e desvio padrão desse tempo) foram coletadas dos próximos 10.000 jobs.
+- Após o período de aquecimento, as métricas (tempo médio no sistema e desvio padrão desse tempo) foram coletadas dos outros jobs.
 - O tempo no sistema de um job é o intervalo desde sua chegada até sua saída definitiva do sistema (após S2 ou S3).
 
 ## Resultados Obtidos
