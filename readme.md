@@ -88,5 +88,13 @@ As tabelas abaixo mostram 3 exemplos de execução de simulação:
 
 ## Conclusões
 
-A simulação mostra claramente aquilo que foi comentado em aula sobre a variância afetar os tempos médios de atendimento. Tivemos uma curiosidade não confirmada entretanto, será que é por isso que no trânsito nós vemos aqueles engarrafamentos sem motivo aparente? Por conta da "variância" de cada motorista? Uns aceleram mais rápidos, outros freiam mais rápido, etc... Assim se formando essas "caudas" mais longas no trânsito :)
+# Impacto da variância no tempo médio
+A simulação mostra claramente aquilo que foi comentado em aula sobre a variância afetar os tempos médios de atendimento. Os resultados obtidos (exponencial > uniforme > determinístico) confirmam essa predição. Achamos também [este artigo](https://medium.com/luizalabs/a-influencia-da-variabilidade-na-eficiencia-de-fluxo-b8af69e31079) que fala um pouco a respeito desse tema.
+
+# Qualidade de serviço
+Esses resultados deixaram bem mais claro também a importância de ter sob controle a variabilidade nos tempos de serviço para poder, cof cof, **AVALIAR** e **MODELAR** bem um sistema, que é algo bem relevante na vida real.
+
+# Dúvida
+Tivemos uma curiosidade não confirmada entretanto, será que é por isso que no trânsito nós vemos aqueles engarrafamentos sem motivo aparente? Por conta da "variância" de cada motorista? Uns aceleram mais rápidos, outros freiam mais rápido, etc... Assim se formando essas "caudas" mais longas no trânsito :)
+
 
